@@ -1,5 +1,4 @@
 import { Action } from "redux";
-import {} from "typesafe-actions";
 
 export interface CounterState {
   count: number;

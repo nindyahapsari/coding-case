@@ -1,11 +1,4 @@
-import {
-  CounterState,
-  CounterAction,
-  CounterActionType,
-  IncrementAction,
-  DecrementAction
-} from "./types";
-import { action } from "typesafe-actions";
+import { CounterState, CounterAction, CounterActionType } from "./types";
 import { Action } from "redux";
 
 const initialState: CounterState = {
@@ -22,5 +15,14 @@ const count = (
         ...state,
         count: state.count + 1
       };
+    case CounterActionType.DECREMENT:
+      return {
+        ...state,
+        count: state.count - 1
+      };
+    default:
+      return state;
   }
 };
+
+export default count;
