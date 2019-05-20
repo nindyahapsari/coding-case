@@ -1,5 +1,7 @@
 ## Finstreet Coding Case
+
 Code Editor: VSCode
+
 Stack: React, Redux, Typescript
 
 
