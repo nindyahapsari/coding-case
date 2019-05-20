@@ -1,3 +1,8 @@
+## Finstreet Coding Case
+Code Editor: VSCode
+Stack: React, Redux, Typescript
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
