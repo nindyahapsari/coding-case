@@ -4,9 +4,32 @@
   top: 0;
 }
 
+.navbox {
+  border: 2px solid black;
+  height: 30px;
+}
+
+.codecasenav {
+  font-size: 20px;
+  margin: 5%;
+}
+
+a {
+  text-decoration: none;
+  padding: 6px;
+  margin-bottom: 20px;
+}
+
+.homenav,
+.counternav {
+  float: right;
+  margin-right: 10%;
+}
+
 .counterBox {
   border: 5px solid blue;
   margin: auto;
+  margin-top: 10%;
   width: 50%;
   padding: 10px;
   text-align: center;
@@ -25,6 +48,10 @@
 
 h1 {
   text-align: center;
+}
+
+h1.title {
+  margin-top: 5%;
 }
 
 .words {
